@@ -1,0 +1,1 @@
+cd src && gcc main.c -o exe -lm && ./exe
