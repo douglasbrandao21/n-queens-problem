@@ -4,11 +4,11 @@
 ### Pré-requisitos
 O projeto foi desenvolvido em sistema operacional UNIX Ubuntu 20.04, portanto, é altamente recomendado que este seja 
 executado em plataformas similares. O único pré requisito para a execução do projeto é a instalação do compilador GCC. 
-Para verificar sua máquina possui o GCC instalado, execute o seguinte comando:
+Para verificar se sua máquina possui o GCC instalado, execute o seguinte comando:
 ```
 gcc --version
 ```
-o resultado deve ser o seguinte:
+o resultado deve ser:
 ```
 gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
 Copyright (C) 2019 Free Software Foundation, Inc.
@@ -30,4 +30,4 @@ $ chmod +x run.sh
 ```
 $ ./run.sh
 ```
-O resultado será exibido em seu terminal.
+O resultado será escrito no arquivo rainha.out.txt, contido na pasta src.
